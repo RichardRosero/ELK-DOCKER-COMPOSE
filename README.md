@@ -9,3 +9,4 @@ archivo docker compose para crear los servicios ELK con elasticsearch-kibana-log
 4. ingresa el siguiente comando "docker-compose up -d"  SIN LAS COMILLAS
 5. cuando culmine dirigete al directorio de docker y ya deberan estar las imagenes dentro de su contenedor, en caso de ser desktop de windows solo ve a la apliciacion
 6. "si es windows" entra a la aplicación ya veras en imagenes las 3 iamgenes de los serivicios, pero ingresaras yendo a containers solo dale click a sus link y listo
+7. si quieres bajar los servicios pero sin eliminar las imagenes "docker-compose down" si quieres volverlas a subir usa nuevamente "docker-compose up -d" alzara los servicios sin sobrescribir las imagenes
