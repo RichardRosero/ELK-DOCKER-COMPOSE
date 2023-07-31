@@ -4,7 +4,7 @@ archivo docker compose para crear los servicios ELK con elasticsearch-kibana-log
 
 # como ejecutar el archivo para crear los servicios con docker-compose
 1. crea un directorio cualquiera en la ubicacion que desees
-2. pega el archivo ```docker-compose.yml``` dentro de ese archivo
+2. pega el archivo ```docker-compose.yml``` dentro de ese directorio
 3. ingresa por cmd o por el terminar de visual studio code directamente al directorio donde esta el archivo que copiaste
 4. ingresa el siguiente comando ```docker-compose up -d```  
 5. cuando culmine dirigete al directorio de docker y ya deberan estar las imagenes dentro de su contenedor, en caso de ser desktop de windows solo ve a la apliciacion
